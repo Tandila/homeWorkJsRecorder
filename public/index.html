@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Record audio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+  <div class="d-flex justify-content-center">
+    <div class="mx-auto" style="width: 300px; margin-top: 2em;">
+    <button type="button" class="btn btn-outline-danger" id="record">Record</button>
+    <button type="button" class="btn btn-outline-danger" id="stop" disabled>Stop</button>
+    <button type="button" class="btn btn-outline-danger" id="play" disabled>Play</button>
+    <button type="button" class="btn btn-outline-danger" id="save" disabled>Save</button>
+      <div class="d-flex justify-content-center">
+        <h2>Saved audio</h2>
+      </div>
+    <div id="saved-audio-messages">
+
+    </div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>

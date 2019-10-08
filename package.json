@@ -1,0 +1,16 @@
+{
+  "name": "jsrecord",
+  "version": "1.0.0",
+  "description": "homework assign",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "george tandilashvili",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^3.3.3"
+  }
+}
